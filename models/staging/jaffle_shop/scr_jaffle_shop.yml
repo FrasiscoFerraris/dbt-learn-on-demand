@@ -33,10 +33,4 @@ sources:
           warn_after: {count: 12, period: hour}
           error_after: {count: 48, period: hour}
 
-        description: Raw orders data.
-        columns:
-          - name: id
-            description: Primary key for payments.
-            tests:
-              - unique
-              - not_null
+        
